@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.timeline {
+    display: flex;
+    margin: 5px;
+}
+
+.timeline-chunk {
+    background-color: #717171;
+    height: 2px;
+    width: 100%;
+    border-radius: 1px;
+}
+
+.timeline-chunk + .timeline-chunk {
+    margin-left: 2px;
+}
+
+.timeline-chunk-inner {
+    height: inherit;
+    background-color: white;
+    border-radius: inherit;
+    width: 0;
+}
