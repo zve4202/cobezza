@@ -28,10 +28,14 @@ body {
     height: inherit;
     background-color: white;
     border-radius: inherit;
+}
+
+.timeline-chunk-active > .timeline-chunk-inner,
+.timeline-chunk-active ~ .timeline-chunk > .timeline-chunk-inner {
     width: 0;
 }
 
-.player-content {
+.player-content-wrapper {
     position: relative;
 }
 
