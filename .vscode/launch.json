@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Launch Microsoft Edge and open the Edge DevTools",
+      "request": "launch",
+      "type": "vscode-edge-devtools.debug",
+      "url": "E:\\C#\\Learning\\cobezza\\stories\\index.html" // Provide your project's url to finish configuring
+    },
+    {
+      "name": "Launch localhost",
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "url": "http://localhost/index.html",
+      "webRoot": "E:\\C#\\Learning\\cobezza\\stories"
+    }
+  ]
+}
