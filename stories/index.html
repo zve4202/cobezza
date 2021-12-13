@@ -2,25 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Основа плеера</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="app.js"></script>
+    <title>Плеер Stories</title>
+
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="playeer/lib.css" />
+
+    <script src="playeer/lib.js" defer></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <div class="my-player"></div>
-    <script>
-      initPlayer({
-        target: ".my-player",
-        slides: [
-          { url: "img/chunk1.jpg", alt: "slide1" },
-          { url: "img/chunk2.jpg", alt: "slide2" },
-          { url: "img/chunk3.jpg", alt: "slide3" },
-          { url: "img/chunk4.jpg", alt: "slide4" },
-          { url: "img/chunk5.jpg", alt: "slide5" },
-        ],
-        time: 5,
-        step: 1,
-      });
-    </script>
   </body>
 </html>
