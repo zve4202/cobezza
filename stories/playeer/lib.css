@@ -39,7 +39,13 @@
 }
 
 .player-chunk {
+  position: relative;
   display: none;
+}
+
+.player-chunk-overlay {
+  position: absolute;
+  user-select: none;
 }
 
 .player-chunk-active {
@@ -48,6 +54,8 @@
 
 .player-chunk-switcher {
   position: absolute;
+  z-index: 1;
+
   height: 100%;
   width: 30%;
 }
@@ -61,3 +69,10 @@
   top: 0;
   right: 0;
 }
+ /* анимация */
+@keyframes scale {
+  50% {
+    transform: scale(2);
+  }
+}
+
